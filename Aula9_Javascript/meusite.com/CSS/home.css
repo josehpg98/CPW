@@ -1,0 +1,16 @@
+body{
+	background-color:;
+}
+header{
+	margin:0;
+	width:70px;
+	float:left;
+	
+}
+header img{
+	height:90px;
+	margin-top:0;
+}
+header nav{
+	float:right;
+}
