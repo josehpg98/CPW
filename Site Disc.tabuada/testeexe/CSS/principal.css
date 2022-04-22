@@ -1,0 +1,71 @@
+body{
+	background-color: #e3f2fdd6;
+}
+/* Cabeçalho */
+header{
+	/*background-color: #9090f1;*/
+	height: 90px;
+	
+	/*background-color: DarkGreen;*/
+	/*background-image: linear-gradient(to top, DarkGreen, white);*/
+	background-image: linear-gradient(371deg, DarkBlue, white);
+	/*
+	O gradiente é renderizado como uma imagem de fundo.
+	os parâmetros informados são o ângulo do degrade e as cores. Em que o degrade será formado seguindo o ângulo e formando da primeira cor para a segunda, podendo ser usado mais cores.
+	*/
+}
+#areaCentralHeader{
+	width: 800px;
+	margin: 0 auto;
+}
+header img, header ul, header li{
+	float: left;
+}
+nav{
+	padding-top: 30px;
+	color: white;
+	font-size: 14pt;
+	margin-left: 40px;
+	float: left;
+	font-family: 'Mali', cursive;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+header img{
+	margin-top: 10px;
+}
+
+/*Rodapé*/
+footer{
+	background-color: #4c51b1;
+	height:200px;
+	bottom: 0;
+	width: 100%;
+}
+#boxRodape{
+	width: 1000px;
+	margin: 0 auto;
+}
+.colunaRodape{
+	width: 25%;
+	float: left;
+}
+
+/* Conteúdo */
+.corpo{
+	width:692px;
+	margin: 0 auto;
+	background-image: 
+	linear-gradient(rgba(250, 250 ,250, .5), rgba(250, 250 ,250, .5)), /*transparência no fundo*/
+	url('../images/backgroundCentral.jpg');
+	background-size: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 800px;
+	padding: 50px;
+	border-radius: 20px;
+	
+}
