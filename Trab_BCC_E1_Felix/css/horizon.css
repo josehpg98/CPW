@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	font-family: Oswald;
+}
+header{
+	width: 100%;
+	height: 150px;
+	background-color: #EEE9E9;
+
+}
+footer{
+	width:100%;
+	background-color:#EEE9E9;
+	height: 100px;
+	position: absolute;
+	bottom:0;
+	
+}
+header img{
+	width:300px;
+	margin: 15px;
+	float: right-center;
+	display:block;
+	margin: auto;
+	
+}
+footer img{
+	width:250px;
+	padding-top: 35px;
+	display:block;
+	margin: auto;
+	
+	
+}
+table{
+	font-size: 25pt !important;
+	margin: 5% auto;
+}
+
+td{
+	padding:10px;
+}
+.imagem{
+	width:1000px;
+}
+#titulop1{
+
+	text-align:center;
+}
+#texto{
+	font-size: 20pt;
+	text-align: justify-all;
+}
+
+
