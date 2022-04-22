@@ -1,0 +1,19 @@
+div{
+	width:200px;
+	height:200px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 5px;
+}
+#laranja{
+	background-color: orange;
+	
+}
+#verde{
+	background-color: green;
+
+}
+#azul{
+	background-color: blue;
+	
+}
