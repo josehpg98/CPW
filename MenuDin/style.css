@@ -1,0 +1,49 @@
+/*
+	Fonte: 
+	https://decodingcode.wordpress.com/2013/05/15/criando-menu-com-sub-menus-somente-com-css/
+*/
+.corner-all {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    /* definindo o raio das bordas para todos os motores de navegadores */
+}
+ 
+#sidebar-menu {
+    margin-left: 10px;
+    /* definição da margem esquerda do menu */
+}
+.menu-item {
+    display: block; /* não permite que outros elementos da página sobreponham o nosso menu */
+    /*float: left;*/
+    width: 10em; /* largura do menu principal */
+    padding: 0.2em; /* espaçamento interno do menu principal */
+    background-color: #1D5987; /* cor de fundo para o menu principal */
+    border: 0.1em solid #FFFFFF; /* borda branca para destacar em fundos coloridos */
+    text-align: center; /* alinhamento do texto */
+}
+.menu-item:hover .submenu { /*Como a lista irá se comportar quando passado o mouse acima*/
+    display: block; /* explicado acima */
+    padding: 0.2em; /* explicado acima */
+}
+.menu-item span {
+    font-size: 1.1em; /* tamanho da fonte do menu principal */
+    color: #FFFFFF; /* cor da fonte do menu principal */
+    font-family: Courier, Verdana, Arial; /* tipo da fonte do menu principal */
+    font-weight: bold; /* negritando a fonte do menu principal */
+}
+.submenu {
+    position: relative; /* define que a posição do submenu vai ser relativa a sua tag pai */
+    display: none; /* não vai ser visivel por padrão */
+    background-color: #63b6f9; /* cor de fundo */
+    list-style: none; /* remove os marcadores padrão das listas */
+}
+.submenu a {
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: #222222; /* define uma nova cor para os links dos submenus */
+}
+.submenu a:hover {
+    color: #CCCCCC; /* altera a cor do link do submenu para destacar ao passar o mouse */
+}
