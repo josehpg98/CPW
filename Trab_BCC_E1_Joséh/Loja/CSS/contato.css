@@ -1,0 +1,26 @@
+#centro{
+		width:600px;
+		margin: 0 auto;
+	}
+	 #f{
+		 width:420px;
+		 border: 1px solid orange;
+	 }
+	
+		#f1{
+		width:200px;
+		background: url(informatica.jpg);
+		}
+			#f2{
+			width:120px;
+			background-color: white;
+			}
+				#f3{
+				width:380px;
+				}
+					#f4{
+					 width:380px;
+					} 
+					 legend{
+						 color: gray;
+					 }

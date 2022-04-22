@@ -1,0 +1,35 @@
+body{
+	margin: 0 absolute;
+}
+.header{
+	width:100%;
+	height:125px;
+	background-color:lightgray;
+	  
+	
+}
+.header img{
+	display:block;
+	float:left;
+}
+#list li{
+	display:block;
+	float:left;
+}
+#list{
+
+	line-height:10em;
+	font-family:Arial black;
+	color:#114dad;
+	padding:14px 16px;
+}
+
+
+.footer{
+	height:200px;
+	margin:0 auto;
+	float:center;
+}
+	
+
+
