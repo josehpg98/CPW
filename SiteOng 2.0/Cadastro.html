@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="CSS/principal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		<script src="JS/funcoes.js"></script>
+		<title> AGAASHD </title>
+	</head>
+<body>
+
+	<header>
+		<div id="areaCentralHeader">
+	
+			<a href="index.html"><img src="IMG/logo.jpg" height="100"/></a>
+			<nav>
+				<div id="sidebar-menu">
+					<ul class="menu">
+						<li class="menu-item corner-all">
+							<span>Sobre</span>
+							<ul class="submenu">
+								<li class="submenu-item">
+									<a href="Equipe.html">Equipe</a>
+								</li>
+								<li class="submenu-item">
+									<a href="Objetivos.html">Objetivos</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item corner-all">
+							<span>Materiais</span>
+							<ul class="submenu">
+								<li class="submenu-item">
+									<a href="MateriaisAudiovisuais.html">Audiovisuais</a>
+								</li>
+								<li class="submenu-item">
+									<a href="MateriaisEscritos.html">Escritos</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item corner-all">
+							<span>Serviços</span>
+							<ul class="submenu">
+								<li class="submenu-item">
+									<a href="Contato.html">Contato</a>
+								</li>
+								<li class="submenu-item">
+									<a href="Cadastro.html">Inscreva-se</a>
+								</li>
+							</ul>
+						</li>							
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div class="corpo">
+	 <table id="cadastro" cellpadding="10">
+		<tr>
+			<td>Digite o seu nome:</td><td><input type="text" id="txtNome"></td>
+		</tr> 
+		<tr>
+			<td>Digite o sua idade:</td><td><input type="number" id="txtIdade" min="1" step="1"></td>
+		</tr>
+		<tr>
+			<td>Digite o seu RG:<td><input type="text" id="txtRG"></td>
+		</tr>
+		<tr>
+			<td>Digite o seu CPF:<td><input type="text" id="txtCPF"></td>
+		</tr>
+		<tr>
+			<td>Informe su endereço:</td><td><input type="text" id="txtEnd"></td>
+		</tr>
+		<tr>
+			<td>Sexo:</td>
+	 		<td><label><input type="radio" name="sex" id="sexM" checked>Masculino
+			<label><input type="radio" name="sex" id="sexF">Feminino</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td rowspan="2"><input type="submit" name="env" value="Enviar" onclick="envioForm();">
+			<input type="reset" name="lmp" value="Limpar" onclick="limpa();"></td>
+		</tr>
+	</table>
+	<div id="retorno">	
+	</div>
+	</div>
+	
+	<footer>
+	    <span>@Copyright José Henrique Paludo Giombelli e Roniê Julian de Assis 2018</span>
+	</footer>
+	
+</body>
+</html>

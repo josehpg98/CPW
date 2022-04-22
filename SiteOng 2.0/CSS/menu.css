@@ -1,0 +1,39 @@
+.corner-all {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+ 
+#sidebar-menu {
+    margin-left: 10px;
+}
+.menu-item {
+    display: block; 
+    width: 8.5em;
+    padding: 0.2em;
+    border: 0.1em solid #CD90D3;
+    text-align: center;
+	margin-right: 10px;
+
+}
+.menu-item:hover .submenu { 
+    display: block;
+    padding: 0.2em; 
+}
+.menu-item span {
+    font-size: 1.1em;
+    color:#CD90D3;
+    font-weight: bold;
+}
+.submenu {
+    position: relative;
+    display: none; 
+    list-style: none;
+}
+.submenu a {
+    text-decoration: none;
+    color: #CD90D3;
+}
+.submenu a:hover {
+    color: #CCCCCC;
+}

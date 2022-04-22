@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $(".capa").hide();
+	$("#filme1").mouseenter(function(){
+		$("#capa1").show(100);
+	});
+	$("#filme1").mouseleave(function(){
+		$("#capa1").hide(100);
+	});
+	$("#filme2").mouseenter(function(){
+		$("#capa2").show(100);
+	});
+	$("#filme2").mouseleave(function(){
+		$("#capa2").hide(100);
+	});
+	$("#filme3").mouseenter(function(){
+		$("#capa3").show(100);
+	});
+	$("#filme3").mouseleave(function(){
+		$("#capa3").hide(100);
+	});
+	$("#filme4").mouseenter(function(){
+		$("#capa4").show(100);
+	});
+	$("#filme4").mouseleave(function(){
+		$("#capa4").hide(100);
+	});
+});

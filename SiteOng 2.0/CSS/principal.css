@@ -1,0 +1,92 @@
+body{
+	background-color: #e6c7e9;
+}
+header{
+	height: 90px;
+	background-color:white;
+	padding-bottom:50px;
+	border-radius: 20px;
+
+}
+#areaCentralHeader{
+	width: 800px;
+	margin: 0 auto;
+}
+header img, header ul, header li{
+	float: left;
+}
+nav{
+	color: white;
+	font-size: 14pt;
+	margin-left: 40px;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+header img{
+	margin-top: 20px;
+}
+.corpo{
+	width:1000px;
+	margin: 0 auto;
+	background-size: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 580px;
+	padding: 50px;
+	border-radius: 20px;
+	background-color:white;
+	text-align:center;
+	color:#CD90D3;
+}
+.corpo img{
+   width:800px;
+   height:350px;
+   margin-left:5px;   
+}
+.corpo p{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+footer{
+	background-color: white;
+	height:50px;
+	width: 100%;
+	border-radius: 20px;
+	text-align:center;
+	padding-top:40px;
+}
+footer span{
+	color:#CD90D3;
+}
+.filmes img{
+  height:250px;
+  width:200px;
+}
+#ob{
+	padding:50px;
+}
+#fb{
+	width:50px;
+	height:50px;
+}
+#tel{
+	width:25px;
+	height:25px;
+}
+#cadastro{
+
+	margin: 0 auto;
+	margin-top:100px;
+
+}
+input[type="number"]{
+  
+  width:50px;
+  margin-right:120px;
+
+}
