@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> new 1 </title>
+		<hr/>
+		 <meta charset="UTF-8"/>
+	</head>
+	<Ol>
+	<h2><li> Dados Acadêmicos </li><h2/>
+	<hr/>
+	<ul>
+	<li>Nome: José Henrique Paludo Giombelli</li>
+	<li>E-mail: josehenriquepaludo@hotmail.com</li>
+	</ul>
+	<br/>
+	<p>Meu nome é josé henrique paludo giombelli,sou natural de são jorge,
+		mas atualmente estou morando em passo fundo em virtude de ter começado este 
+		semestre o curso de ciência da computação no ifsul e o corso de técnico em informica 
+		que já fazia a noite há um ano. </p>
+	<br/>
+	<hr/>
+	<h2><li> Informações Acadêmicas </li><h2/>
+	<ol>
+	<li>Escola municipal de ensino fundamental zulmiro zanin (2005-2008)</li>
+	<li>Escola estadual de educação básica pedro nunes da csilva (2009-2015)</li>
+	<li>Técnico em informática - IFSUL (Cursando)</li>
+	<li>Bacharelado em ciência da computação - IFSUL (Cursando)</li>
+	</ol>
+	<br>
+	<hr/>
+	<h2><li> Expectativas </li><h2/>
+	<p>Minha expectativa em relação ao curso é aprender mais sobre 
+		programação,principalmente a parte web, circuitos e arquitetura de computadores.
+		espero me formar na área e trabalhar no futuro como desenvolvedor web ou professor.</p>
+	<br/>
+	<hr/>
+	<h2><li> Àreas de interesse </li><h2/>
+	<dl>
+	<dt>CPW</dt>
+	<dd> Criação de paginas web</dd>
+	<dt>CD</dt>
+	<dd> Circuitos digitais </dd>
+	<dt>A I</dt>
+	<dd> Algortmos I </dd>
+	</dl>
+	</ol>
+	</body>
+</html>
