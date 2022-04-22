@@ -1,0 +1,74 @@
+body{
+	background-color: #e6c7e9;
+}
+header{
+	height: 180px;
+	background-color:white;
+	border-radius: 20px;
+}
+#logo{
+	margin-left:10%;
+	height: 130px;
+	width:500px;
+	font-size:15px;
+	color:#CD90D3;
+	padding:20px;
+	float:left;
+	font-weight: bold;
+}
+#logo img{
+  margin-left: 120px;
+  padding-left:30px;
+  padding-bottom:10px;
+}
+
+nav{
+	font-size: 14pt;
+	margin-left: 4px;
+	float: left;
+	color:#CD90D3;
+}
+
+header li{
+	float: left;
+	margin-left:30%;
+	margin-top:11px;
+}
+.corpo{
+	width:1000px;
+	margin: 0 auto;
+	background-size: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height: 540px;
+	padding: 50px;
+	border-radius: 20px;
+	background-color:white;
+	text-align:center;
+	color:#CD90D3;
+}
+.corpo img{
+   width:800px;
+   height:350px;
+   margin-left:5px;   
+}
+.corpo p{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+footer{
+	background-color: white;
+	height:50px;
+	width: 100%;
+	border-radius: 20px;
+	text-align:center;
+	padding-top:40px;
+}
+footer span{
+	color:#CD90D3;
+}
+.filmes img{
+  height:250px;
+  width:200px;
+}
