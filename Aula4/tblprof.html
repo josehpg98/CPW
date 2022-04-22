@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Tabelas</title>
+		<meta charset="UTF-8"/>
+		<style>
+			td, th{
+				text-align: center;
+				width: 150px;
+			}
+			thead, tfoot{
+			background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+		<table border="1" cellspacing="0">
+			<caption>Compras de Informática</caption>
+			<thead>
+			
+				<tr>
+					<th>Produto</th>
+					<th>Quantidade</th>
+					<th>Valor Unitário</th>
+					<th>Valor Total</th>
+				</tr>
+				
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="3">Total a pagar</td>
+					<td>R$ 8.719,00</td>
+				</tr>
+			</tfoot>
+			<tbody>
+			<tr>
+				<td rowspan="1" colspan="4" height="8px"></td>
+				</tr>
+				<tr>
+					<td>Mouse 8GB</td>
+					<td>3</td>
+					<td>R$ 20,00</td>
+					<td>R$ 60,00</td>
+				</tr>
+				<tr>
+					<td>HD Externo 1TB</td>
+					<td rowspan="2">1</td>
+					<td>R$ 259,00</td>
+					<td>R$ 259,00</td>
+				</tr>
+				<tr>
+					<td>Notebook DELL i7</td>
+					<td>R$ 4.200,00</td>
+					<td>R$ 8.400,00</td>
+				</tr>
+				<tr>
+				<td rowspan="1" colspan="4" height="8px"></td>
+				</tr>
+			</tbody>
+		</table>
+		</center>
+	</body>
+</html>
