@@ -1,0 +1,16 @@
+<style>
+		input{
+			background-color:lightgray;
+		}
+		#iarquivo{
+			background-color:green;
+		}
+		.test{
+			color: red;
+			background-color: lightgreen;
+		}
+		#centro{
+			width: 800px;
+			margin: 0 auto;
+		}
+		</style>

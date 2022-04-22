@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="exe.css"/>
+	</head>
+	<body>
+	<div id="centro">
+		<form method="get">
+		<fieldset id="f">
+		 <fieldset id="f1">
+		<legend> Identificação do usuário: </legend>
+		<label>Nome:<input type="text" size="50" " placeholder="Digite seu nome" required="required"/></label>
+		<br/><br/>
+		<label>Senha: <input type="password" name="senha"  required="required" placeholder="Informe sua senha com no máximo 8 caracteres"/> </label>
+		<br/><br/>
+		<label>E-mail: <input type="email"  name="email"  required="required" placeholder="Digite seu e-mail"/>  </label>
+		<br/><br/>
+		<fieldset id="f2">
+		<legend>sexo:</legend>
+			<label>Feminino:<input type="radio" name="sexo" value="f" checked="checked"/></label>
+			<br/>
+			<label>Masculino:<input type="radio" name="sexo" value="m"/></label>
+		</fieldset>
+		<br/><br/>
+		<label> Data de nascimento:<input type="date"/></label>
+		 </fieldset>
+		<br/><br/>
+		<fieldset id="f3">
+		<legend> Mensagem do usuário: </legend>
+		<label>Mensagem:
+				<br/><br/>
+				<textarea name="mensagem" cols="30" rows="4">
+					Digite sua mensagem aqui!
+				</textarea>
+				</fieldset>
+		<br/>
+		<fieldset id="f4">
+		<legend> Ações do furmulário: </legend>
+		<button> Enviar</button>
+		 <input type="reset" value="Cancelar">
+		    </fieldset>
+		</fieldset>
+		</form>
+		</div>
+	</body>
+</html>

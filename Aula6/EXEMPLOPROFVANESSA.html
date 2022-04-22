@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<form method="get" onsubmit="alert('Bem-vindo(a)');">
+			<label>Nome: <input type="text" size="10" 
+			maxlength="10" id="idNome" name="nome"
+			placeholder="Nome" required="required"/>
+			</label><br/><br/>
+			<label>E-mail: <input type="email" 
+			id="idEmail" name="email"/>
+			</label><br/><br/>
+			<label>Senha: <input type="password"
+			name="senha" required="required"/>
+			</label><br/><br/>
+			<input type="hidden" value="Brasil" 
+			name="Local"/>
+			<label>Mensagem:<br/>
+				<textarea name="mensagem" cols="30" rows="4">
+					Olá Mundo
+				</textarea>
+			</label><br/><br/>
+			ÁREA DE INTERESSE: <br/>
+			<label> programação: <input type="checkbox" name="teste" value="programer"/></label><br/>
+			<label for="infra"> infraestrutura</label>
+			<input type="checkbox" id="infra" name="teste" value="infraestrutura"/><br/>
+			<label> games:
+			<input type="checkbox" name="teste" value="game"/>
+			</label>
+			<br/>
+			sexo:
+			<label>f:<input type="radio" name="sexo" value="f" checked="checked"/></label>
+			<label>m:<input type="radio" name="sexo" value="m"/></label>
+			<br/><br/>
+			<label for="1estado">estado: </label>
+			<select name="estado" id="1estado">
+			<option>rs</option>
+			<option selected="selected">sc</option>
+			<option>pr</option>
+			</select>
+			<br/><br/>
+			<input type="submit" value="Logar"/>
+		</form>
+	</body>
+</html>
